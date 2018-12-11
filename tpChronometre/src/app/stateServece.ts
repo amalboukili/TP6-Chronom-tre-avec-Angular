@@ -1,4 +1,7 @@
-export class State {
+import { Injectable } from '@angular/core';
+@Injectable()
+
+export class StateService {
     private _play: boolean = true;
     private _stop: boolean = false;
     private _back: boolean = false;

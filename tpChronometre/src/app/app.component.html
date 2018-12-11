@@ -5,11 +5,10 @@
     Le chronomètre
   </h1>
   <br>
-  <h1>
-    <span class="label label-primary"> {{_timer.min}} </span>
-    <span class="label label-primary"> {{_timer.sec}} </span>
-  </h1>
+  <app-affichage></app-affichage>
   <br>
+
+    <br>
 
   <p>
     <button class="btn btn-danger btn-lg" *ngIf="_state.back" (click)="back()">Effacer</button>

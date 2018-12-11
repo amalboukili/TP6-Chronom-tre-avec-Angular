@@ -1,4 +1,7 @@
-export class Timer {
+import { Injectable } from '@angular/core';
+@Injectable()
+
+export class TimerService {
     private min: number = 0;
     private sec: number = 0;
     private totalSec:number = 0;
